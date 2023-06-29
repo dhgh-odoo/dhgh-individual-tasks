@@ -1,5 +1,5 @@
 from odoo import api, models
-from odoo.exceptions import ValidationError
+from odoo.exceptions import UserError
 
 class StockMove(models.Model):
     _inherit = "stock.move"
@@ -13,6 +13,5 @@ class StockMove(models.Model):
         '''
         for record in self:
             picking_type_record = self.env['stock.picking.type'].search([('id','=',record.picking_type_id.id)])
-            
             if picking_type_record.code=="incoming" and record.quantity_done > record.product_uom_qty:
-                raise ValidationError('Odoopsie! Quantity done must be less than or equal to demand')
+                raise UserError('Odoopsie! Quantity done must be less than or equal to demand')
