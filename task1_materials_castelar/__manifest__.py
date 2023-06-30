@@ -6,6 +6,6 @@
     'application': False,
     'depends': ['stock'],
     'data': [],
-    'license': 'OEEL-1',
+    'license': 'OPL-1',
 }
 
