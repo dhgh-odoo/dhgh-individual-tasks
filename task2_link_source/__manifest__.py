@@ -1,5 +1,5 @@
 {
-    'name': 'LinkSource_Pricing_Update',
+    'name': 'LinkSource_Sale',
     'description': 'Implementation for the task: "LinkSource Pricing Update"',
     'summary': 'Removed the Auto Updation of Unit Price when you update the quantity',
     'author': 'Odoo Inc.',
