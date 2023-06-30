@@ -1,4 +1,5 @@
-from odoo import fields, models, api
+from odoo import models
+
 
 class SaleOrder(models.Model):
     _inherit = 'sale.order'
@@ -28,4 +29,3 @@ class SaleOrder(models.Model):
                     fiscal_position=line.order_id.fiscal_position_id,
                     product_price_unit=price,
                     product_currency=line.currency_id)
-

@@ -1,7 +1,9 @@
-# -*- coding: utf-8 -*-
 {
     'name': 'LinkSource_Pricing_Update',
     'description': 'Implementation for the task: "LinkSource Pricing Update"',
+    'summary': 'Removed the Auto Updation of Unit Price when you update the quantity',
+    'author': 'Odoo Inc.',
+    'website': 'www.odoo.com',
     'sequence': 315,
     'version': '1.0',
     'application': False,
