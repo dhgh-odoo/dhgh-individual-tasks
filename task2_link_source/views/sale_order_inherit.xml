@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="task2_link_source_form_inherit_sale" model="ir.ui.view">
+        <field name="name">task2.link.source.form.inherit.sale</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//button[@name='action_quotation_send']" position="after">
+                <button name="action_recompute_price_unit" string="Recompute Prices" type="object" states="draft,sent,sale" class="btn-primary"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>
