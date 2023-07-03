@@ -5,7 +5,7 @@
     'author': 'Odoo Inc.',
     'website': 'www.odoo.com',
     'sequence': 315,
-    'version': '1.0',
+    'version': '1.1',
     'application': False,
     'depends': ['sale'],
     'data': [
