@@ -12,7 +12,6 @@ class SaleOrder(models.Model):
         """
         for record in self:
             # Get all the sale order lines linked to this order
-            order_lines = self.env['sale.order.line'].search([('order_id','=',record.id)])
             order_lines = record.order_line
             
             # Update context to trigger the _get_display_price() from SalesOrderLine instead of the overriden class 
