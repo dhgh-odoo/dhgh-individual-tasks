@@ -1,5 +1,5 @@
 {
-    'name': 'MatrixSystems_product',
+    'name': 'matrix_systems_product_barcode',
     'description': 'Implementation for the task: "Matrix Systems : Sequential Number for Barcode"',
     'summary': 'Create a new field called Product Group which suto increments',
     'author': 'Odoo Inc.',

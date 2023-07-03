@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <record id="task3_matrix_systems_form_inherit_product" model="ir.ui.view">
+    <record id="task3_form_inherit_product_matrix_systems" model="ir.ui.view">
         <field name="name">task3.matrix.systems.form.inherit.product</field>
         <field name="model">product.template</field>
         <field name="inherit_id" ref="product.product_template_only_form_view" />
